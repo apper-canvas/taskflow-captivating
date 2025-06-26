@@ -3,7 +3,7 @@ import QuickAddTask from "@/components/molecules/QuickAddTask";
 import TaskList from "@/components/organisms/TaskList";
 import { useTasks } from "@/hooks/useTasks";
 import { formatTaskDate } from "@/utils/dateUtils";
-import ApperIcon from "@/components/atoms/ApperIcon";
+import ApperIcon from "@/components/ApperIcon";
 import React from "react";
 const TodayView = () => {
   const { 
