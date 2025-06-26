@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "name": "Inbox",
+    "color": "#808080",
+    "icon": "Inbox",
+    "order": 0,
+    "parentId": null
+  },
+  {
+    "id": "2",
+    "name": "Personal",
+    "color": "#3B82F6",
+    "icon": "User",
+    "order": 1,
+    "parentId": null
+  },
+  {
+    "id": "3",
+    "name": "Work",
+    "color": "#10B981",
+    "icon": "Briefcase",
+    "order": 2,
+    "parentId": null
+  },
+  {
+    "id": "4",
+    "name": "Health & Fitness",
+    "color": "#F59E0B",
+    "icon": "Heart",
+    "order": 3,
+    "parentId": null
+  },
+  {
+    "id": "5",
+    "name": "Learning",
+    "color": "#8B5CF6",
+    "icon": "BookOpen",
+    "order": 4,
+    "parentId": null
+  },
+  {
+    "id": "6",
+    "name": "Shopping",
+    "color": "#EF4444",
+    "icon": "ShoppingBag",
+    "order": 5,
+    "parentId": null
+  }
+]

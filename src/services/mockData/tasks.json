@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1",
+    "title": "Review quarterly reports",
+    "description": "Go through Q3 financial reports and prepare summary",
+    "projectId": "3",
+    "priority": 1,
+    "dueDate": "2024-01-15T09:00:00.000Z",
+    "completed": false,
+    "createdAt": "2024-01-10T10:30:00.000Z",
+    "order": 1
+  },
+  {
+    "id": "2",
+    "title": "Buy groceries",
+    "description": "Milk, bread, eggs, vegetables for the week",
+    "projectId": "6",
+    "priority": 2,
+    "dueDate": "2024-01-15T18:00:00.000Z",
+    "completed": false,
+    "createdAt": "2024-01-10T08:15:00.000Z",
+    "order": 2
+  },
+  {
+    "id": "3",
+    "title": "30-minute morning run",
+    "description": "Start with light jogging, build up endurance",
+    "projectId": "4",
+    "priority": 3,
+    "dueDate": "2024-01-15T07:00:00.000Z",
+    "completed": true,
+    "createdAt": "2024-01-09T20:00:00.000Z",
+    "order": 3
+  },
+  {
+    "id": "4",
+    "title": "Read React documentation",
+    "description": "Catch up on new features in React 18",
+    "projectId": "5",
+    "priority": 4,
+    "dueDate": "2024-01-16T20:00:00.000Z",
+    "completed": false,
+    "createdAt": "2024-01-08T14:20:00.000Z",
+    "order": 4
+  },
+  {
+    "id": "5",
+    "title": "Call dentist for appointment",
+    "description": "Schedule regular checkup for next month",
+    "projectId": "2",
+    "priority": 2,
+    "dueDate": "2024-01-15T14:00:00.000Z",
+    "completed": false,
+    "createdAt": "2024-01-11T11:45:00.000Z",
+    "order": 5
+  },
+  {
+    "id": "6",
+    "title": "Prepare presentation slides",
+    "description": "Create slides for client meeting on Friday",
+    "projectId": "3",
+    "priority": 1,
+    "dueDate": "2024-01-17T10:00:00.000Z",
+    "completed": false,
+    "createdAt": "2024-01-12T16:30:00.000Z",
+    "order": 6
+  },
+  {
+    "id": "7",
+    "title": "Organize home office",
+    "description": "Clean desk, organize papers, set up filing system",
+    "projectId": "2",
+    "priority": 3,
+    "dueDate": null,
+    "completed": false,
+    "createdAt": "2024-01-05T12:00:00.000Z",
+    "order": 7
+  },
+  {
+    "id": "8",
+    "title": "Plan weekend trip",
+    "description": "Research destinations, book accommodation",
+    "projectId": "2",
+    "priority": 4,
+    "dueDate": "2024-01-18T12:00:00.000Z",
+    "completed": false,
+    "createdAt": "2024-01-13T09:15:00.000Z",
+    "order": 8
+  }
+]

@@ -1,0 +1,90 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply antialiased;
+  }
+  
+  body {
+    @apply font-sans text-gray-900 bg-background;
+  }
+  
+  input, textarea, select {
+    @apply outline-none;
+  }
+}
+
+@layer components {
+  .toast-container {
+    @apply text-sm;
+  }
+  
+  .Toastify__toast {
+    @apply rounded-lg shadow-lg border border-gray-200;
+  }
+  
+  .Toastify__toast--success {
+    @apply bg-white border-green-200;
+  }
+  
+  .Toastify__toast--error {
+    @apply bg-white border-red-200;
+  }
+  
+  .Toastify__toast--info {
+    @apply bg-white border-blue-200;
+  }
+  
+  .Toastify__progress-bar {
+    @apply bg-gradient-to-r from-primary-500 to-primary-400;
+  }
+}
+
+@layer utilities {
+  .task-checkbox {
+    @apply relative w-5 h-5 border-2 border-gray-300 rounded-full cursor-pointer transition-all duration-200;
+  }
+  
+  .task-checkbox:hover {
+    @apply border-primary-400 bg-primary-50;
+  }
+  
+  .task-checkbox.priority-1 {
+    @apply border-red-400;
+  }
+  
+  .task-checkbox.priority-2 {
+    @apply border-orange-400;
+  }
+  
+  .task-checkbox.priority-3 {
+    @apply border-blue-400;
+  }
+  
+  .task-checkbox.completed {
+    @apply bg-primary-500 border-primary-500;
+  }
+  
+  .priority-flag {
+    @apply inline-flex items-center justify-center w-4 h-4 text-xs font-medium rounded;
+  }
+  
+  .priority-1 {
+    @apply bg-red-100 text-red-700 border border-red-200;
+  }
+  
+  .priority-2 {
+    @apply bg-orange-100 text-orange-700 border border-orange-200;
+  }
+  
+  .priority-3 {
+    @apply bg-blue-100 text-blue-700 border border-blue-200;
+  }
+  
+  .priority-4 {
+    @apply bg-gray-100 text-gray-700 border border-gray-200;
+  }
+}
