@@ -2,7 +2,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import TaskItem from "@/components/molecules/TaskItem";
 import EmptyState from "@/components/molecules/EmptyState";
 import LoadingSpinner from "@/components/molecules/LoadingSpinner";
-import ApperIcon from "@/components/atoms/ApperIcon";
+import ApperIcon from "@/components/ApperIcon";
 import React from "react";
 const TaskList = ({ 
   tasks = [], 
