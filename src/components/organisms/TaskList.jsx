@@ -2,7 +2,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import TaskItem from "@/components/molecules/TaskItem";
 import EmptyState from "@/components/molecules/EmptyState";
 import LoadingSpinner from "@/components/molecules/LoadingSpinner";
-import Icon from "@/components/atoms/Icon";
+import ApperIcon from "@/components/atoms/ApperIcon";
 import React from "react";
 const TaskList = ({ 
   tasks = [], 
@@ -22,11 +22,11 @@ const TaskList = ({
     )
   }
   
-  if (error) {
+if (error) {
     return (
 <div className={`py-12 text-center ${className}`}>
         <div className="text-red-500 mb-4">
-          <Icon name="AlertCircle" size={48} className="mx-auto mb-2" />
+          <ApperIcon name="AlertCircle" size={48} className="mx-auto mb-2" />
           <p className="text-lg font-medium">Something went wrong</p>
           <p className="text-sm text-gray-600">{error}</p>
         </div>
@@ -68,7 +68,7 @@ const TaskList = ({
         ))}
       </AnimatePresence>
       
-      {/* Completed tasks section */}
+{/* Completed tasks section */}
       {completedTasks.length > 0 && (
         <motion.div
           initial={{ opacity: 0 }}
@@ -76,7 +76,7 @@ const TaskList = ({
           className="pt-6 border-t border-gray-200"
 >
           <div className="flex items-center space-x-2 mb-4">
-            <Icon name="CheckCircle" size={16} className="text-green-500" />
+            <ApperIcon name="CheckCircle" size={16} className="text-green-500" />
             <h3 className="text-sm font-medium text-gray-700">
               Completed ({completedTasks.length})
             </h3>
